@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.szxs.entity">
+    <class name="Emp" >
+        <id name="empno" >
+            <generator class="increment" />
+        </id>
+
+        <property name="comm"/>
+        <property name="deptno"/>
+        <property name="ename"/>
+        <property name="hiredate"/>
+        <property name="job"/>
+        <property name="mgr" />
+        <property name="sal" />
+    </class>
+</hibernate-mapping>
